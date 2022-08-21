@@ -20,11 +20,15 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
 <body>
 
     <section class="element">
+        <a class="link" data-scale="3" data-text="hover me"> Test Me</a>
         <a class="link"> Test Me</a>
     </section>
     <!-- <div class="cursor"></div> -->
-    <svg class="cursor" width="24" height="24" viewbox="0 0 24 24" data-scale-enter="2" data-opacity-enter=".8">
-        <circle class="cursor__inner" cx="12" cy="12" r="6"></circle>
+    <svg class="cursor cursor--1" width="12" height="12" viewbox="0 0 12 12" data-scale-enter="0" data-opacity-enter="0">
+        <circle class="cursor__inner" cx="6" cy="6" r="3"></circle>
+    </svg>
+    <svg class="cursor cursor--2" width="72" height="72" viewbox="0 0 72 72" data-scale-enter="2" data-opacity-enter=".5" data-amt="0.15">
+        <circle class="cursor__inner" cx="36" cy="36" r="18"></circle>
     </svg>
     <script src="/index.de5c0784.js"></script>
 </body>

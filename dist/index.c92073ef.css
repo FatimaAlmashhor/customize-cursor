@@ -38,6 +38,16 @@ body {
     z-index: 99999 !important;
   }
 
+  .cursor--1 .cursor__inner {
+    fill: #fff;
+  }
+
+  .cursor--2 .cursor__inner {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1px;
+  }
+
   .cursor__inner {
     opacity: .8;
     background-color: #000;
